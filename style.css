@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Roboto;
+    margin: 0;
+}
+
+.section {
+    display: flex;
+    height: 450px;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    width: 950px;
+    padding-top: 10px;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 100%;
+}
+
+.header-right {
+    height: 100%;
+}
+
+.header-main-section {
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+    gap: 20px;
+}
+
+.header-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    background-color: #6d747d;
+    height: 200px;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.awesome-website {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.sign-up-button {
+    border: #3882F6;
+}
+
+.random-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.random-info-title {
+    font-size: 36px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.random-info-container {
+    display: flex;
+    gap: 20px;
+}
+
+.random-info-image {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.random-info-subtext {
+    padding-top: 10px;
+    color: #6d747d;
+    text-align: center;
+    width: 150px;
+}
+
+.quote-wrapper {
+    background-color: #E5E7EB;
+}
+
+.footer-wrapper {
+    background-color: #1F2937;
+}
+
+.button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    height: 35px;
+    width: 125px;
+    font-size: 16px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
