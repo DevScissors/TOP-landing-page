@@ -129,6 +129,37 @@ body {
     font-weight: 700;
 }
 
+.call-to-action-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-wrapper {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    height: 100px;
+    width: 950px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-to-action {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sign-up-text {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.call-to-action-button {
+    border: 1px solid white;
+}
+
 .footer-wrapper {
     background-color: #1F2937;
 }
