@@ -48,9 +48,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 400px;
+    width: 500px;
     background-color: #6d747d;
-    height: 200px;
+    height: 225px;
 }
 
 .logo {
@@ -89,7 +89,7 @@ body {
 
 .random-info-container {
     display: flex;
-    gap: 20px;
+    gap: 50px;
 }
 
 .random-info-image {
